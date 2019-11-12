@@ -8,9 +8,10 @@ Coveralls.wear!
 Dotenv.load("config.env")
 
 Unsplash.configure do |config|
-  config.application_access_key = ENV["UNSPLASH_ACCESS_KEY"]
-  config.application_secret = ENV["UNSPLASH_SECRET_KEY"]
-  config.utm_source = "unsplash_rb_specs"
+  config.application_access_key = ENV["ca02e89ab59d71eb7fde14646e42aa75b6b5ef58d39af51350461905526c34fd"]
+  config.application_secret = ENV["c800625d7682d1bc473747ed58457cfe66de04718cc509a9c0e64f9dec3a98ae"]
+  config.application_redirect_uri = "urn:ietf:wg:oauth:2.0:oob"
+  config.utm_source = "Ferreri"
 end
 
 VCR.configure do |config|
