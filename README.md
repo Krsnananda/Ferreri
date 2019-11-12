@@ -1,4 +1,3 @@
-# unsplash_rb
 
 [![Build Status](https://travis-ci.org/unsplash/unsplash_rb.svg?branch=travis)](https://travis-ci.org/unsplash/unsplash_rb)
 [![Coverage Status](https://coveralls.io/repos/github/unsplash/unsplash_rb/badge.svg?branch=master&gh_cache_bust=1)](https://coveralls.io/github/unsplash/unsplash_rb?branch=master)
