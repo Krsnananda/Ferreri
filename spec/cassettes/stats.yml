@@ -1,0 +1,68 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: "<API_URI>stats/total"
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Client-ID <ACCESS_KEY>
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Request-Method:
+      - "*"
+      Access-Control-Allow-Headers:
+      - "*"
+      Access-Control-Expose-Headers:
+      - Link,X-Total,X-Per-Page,X-RateLimit-Limit,X-RateLimit-Remaining
+      Content-Type:
+      - application/json
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '100'
+      X-Request-Id:
+      - 7d2bfc17-e619-4610-bbc0-1c998663d6e8
+      X-Runtime:
+      - '0.013063'
+      Via:
+      - 1.1 varnish
+      - 1.1 varnish
+      - 1.1 vegur
+      Content-Length:
+      - '203'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Tue, 19 Mar 2019 23:10:33 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-iad2131-IAD, cache-mdw17329-MDW
+      X-Cache:
+      - MISS, MISS
+      X-Cache-Hits:
+      - 0, 0
+      X-Timer:
+      - S1553037034.795434,VS0,VE62
+      Vary:
+      - Origin, Authorization
+    body:
+      encoding: UTF-8
+      string: '{"total_photos":0,"photo_downloads":0,"photos":0,"downloads":0,"views":0,"likes":0,"photographers":0,"pixels":0,"downloads_per_second":0,"views_per_second":0,"developers":0,"applications":0,"requests":0}'
+    http_version: 
+  recorded_at: Tue, 19 Mar 2019 23:10:33 GMT
+recorded_with: VCR 3.0.3
